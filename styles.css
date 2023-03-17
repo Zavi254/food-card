@@ -1,0 +1,41 @@
+.foodTitle {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.mainContainer {
+    width: 40%;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+#order {
+    background-color: rgb(24, 141, 214);
+    color: white;
+    font-weight: bold;
+}
+
+#timeBtn {
+    background-color: white;
+    border: 1px solid rgb(24, 141, 214);
+    color: rgb(24, 141, 214);
+}
